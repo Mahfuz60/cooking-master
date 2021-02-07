@@ -1,3 +1,43 @@
-.container{
+body{
+    
     background-color: #EDD263;
 }
+nav {
+    height: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .menu-title {
+    margin-left: 50px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .menubar {
+    flex: 50%;
+
+  }
+  .menubar ul li{
+    float:right ;
+    font-weight: bold;
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+  }
+  .menubar ul li{
+    display: inline;
+    margin-right: 50px;
+    
+
+  }
+  .menubar ul li:hover{
+      background-color:blueviolet;
+      color:white;
+  }
+form{
+    position: center;
+}
+
+  h5{
+      text-align: center;
+  }
